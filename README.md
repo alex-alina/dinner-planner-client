@@ -1,44 +1,59 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Meal Planner - Server
 
-## Available Scripts
+This is the client for a meal planner app, current state is MVP.
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+The MVP was developed as part of a full-stack web app for a real project. A team of four developers and one UI/UX designer (all [Codaisseur](https://codaisseur.com/) graduates) worked to develop/design it. 
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The goal was to develop the basic features for a meal planner that helps people plan healthier meals more efficiently. It also included:
+- creating user accounts
+- a recipes' list
+- a shopping list that included all the necessary ingredients in the right quantity (calculated for the number of household members)
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+This planner gives its users access to quality recipes, but it does not allow a user to add their own recipes. Only an admin could add recipes to the data base. 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### The MPV includes the following features:
+* Sign in/Log in page: helps the user create a secured user account that offers access to a personal weekly meal planner and a personalized shopping list.
+* Meal Planner Page: displays a personal planner that starts with seven random recipes (retrieved from a PosgreSQL database run on Heroku's servers). 
+* Each recipe presents the ingredients calculated for the entire household (for children only half of the adult amount is calculated)
+* Change recipe button: gives the user the option to change a recipe from the planner with another one from the recipes' list.
+* Add to (shopping) list button: creates a shopping list by either adding the ingredients for all recipes at once **or** for one recipe at a time.
+* Shopping cart button: displays the shopping list.
+* Print / Clear buttons: help the user to print or clear the shopping list. 
+* Log out button: redirects the user to the Log in page
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Out of scope for this MVP:
+* Creating an admin account or endpoints to add recipes were out of scope for this project so the recipes were added to the database by writing and running an SQL script with DBeaver. 
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Tech stack
+* JavaScript
+* React
+* Redux
+* CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Demo
+[Working MVP Demo](https://loized.com/img/meal/video_meal.gif)
 
-### `npm run eject`
+## Setup
+* The backend (server) of this project must be running for the app to function correctly.
+* Install the dependencies using `yarn install`
+* Start the server using `yarn start`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Authors and acknowledgment
+* [Hoan Phung](https://github.com/hoanphungt) - [Full-stack Junior Developer ](https://www.linkedin.com/in/hoanphung/)
+* [Loize Dalco](https://loized.com/) - [UX/ UI Designer](https://www.linkedin.com/in/loize-dalco/)
+* [Sabina Dhaugoda](https://github.com/sabeenski) - [Junior FullStack Developer](https://www.linkedin.com/in/sabinadhaugoda/)
+* Alina Rusu (me) - [Junior Full-Stack Web-developer](https://www.linkedin.com/in/alina-rusu/)
+* [David Behal](https://github.com/DavidB59) - [Junior Full-Stack Developer](https://www.linkedin.com/in/davidbehal/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Working on a real project in an agile team that included a well prepared Project Owner, a great UI/UX Designer and three hard working and solution oriented developers was a great opportunity and fun experience that came with so much learning and professional growth.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Good planning, SCRUM, open communication and a constant focus on priorities helped us deliver the required MVP in two weeks and for that I'd like to thank my teammates for their grit, determination, humor and positive attitude.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## License
+MIT Licence - Copyright &copy; 2018 - Alina Rusu, David Behal, Hoan Phung, Loize Dalco, Sabina Dhaugoda.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
