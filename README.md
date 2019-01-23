@@ -1,4 +1,4 @@
-## Meal Planner - Server
+## Meal Planner - Client
 
 This is the client for a meal planner app, current state is MVP.
 
@@ -17,12 +17,12 @@ This planner gives its users access to quality recipes, but it does not allow a 
 #### The MPV includes the following features:
 * Sign in/Log in page: helps the user create a secured user account that offers access to a personal weekly meal planner and a personalized shopping list.
 * Meal Planner Page: displays a personal planner that starts with seven random recipes (retrieved from a PosgreSQL database run on Heroku's servers). 
-* Each recipe presents the ingredients calculated for the entire household (for children only half of the adult amount is calculated)
+* Each recipe presents the ingredients calculated for the entire household (for children only half of the adult amount is calculated).
 * Change recipe button: gives the user the option to change a recipe from the planner with another one from the recipes' list.
 * Add to (shopping) list button: creates a shopping list by either adding the ingredients for all recipes at once **or** for one recipe at a time.
 * Shopping cart button: displays the shopping list.
 * Print / Clear buttons: help the user to print or clear the shopping list. 
-* Log out button: redirects the user to the Log in page
+* Log out button: redirects the user to the Log in page.
 
 
 #### Out of scope for this MVP:
