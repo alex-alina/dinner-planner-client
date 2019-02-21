@@ -3,7 +3,8 @@
 This is the client for a meal planner app, current state is MVP.
 
 ## Demo
-[![Working MVP Demo](https://loized.com/img/meal/video_meal.gif)]
+[Working MVP Demo](https://loized.com/img/meal/video_meal.gif)
+![](https://loized.com/img/meal/video_meal.gif)
 
 ## Tech stack
 * JavaScript
