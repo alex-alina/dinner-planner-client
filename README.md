@@ -41,7 +41,7 @@ This planner gives its users access to quality recipes, but it does not allow a 
 * Start the server using `yarn start`
 
 ## Contributions:
-* Worked on the Shopping list page for which I build React's [presentational](https://github.com/alex-alina/dinner-planner-client/blob/master/src/components/shoppingList/ShoppingList.js) and [container](https://github.com/alex-alina/dinner-planner-client/blob/master/src/components/shoppingList/ShoppingListContainer.js) components together with the [action creators](https://github.com/alex-alina/dinner-planner-client/blob/master/src/actions/shoppingList.js) and [reducer] (https://github.com/alex-alina/dinner-planner-client/blame/master/src/reducers/shoppingList.js) necessary for changing and updating the  redux state.
+* Worked on the Shopping list page for which I build React's [presentational](https://github.com/alex-alina/dinner-planner-client/blob/master/src/components/shoppingList/ShoppingList.js) and [container](https://github.com/alex-alina/dinner-planner-client/blob/master/src/components/shoppingList/ShoppingListContainer.js) components together with the [action creators](https://github.com/alex-alina/dinner-planner-client/blob/master/src/actions/shoppingList.js) and [reducer](https://github.com/alex-alina/dinner-planner-client/blame/master/src/reducers/shoppingList.js) necessary for changing and updating the  redux state.
 
 ## Authors and acknowledgment
 * [Hoan Phung](https://github.com/hoanphungt) - [Full-stack Junior Developer ](https://www.linkedin.com/in/hoanphung/)
