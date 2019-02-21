@@ -4,7 +4,7 @@ This is the client for a meal planner app, current state is MVP.
 
 ## Demo
 [Working MVP Demo](https://loized.com/img/meal/video_meal.gif)
-![](https://loized.com/img/meal/video_meal.gif)
+
 
 ## Tech stack
 * JavaScript
@@ -12,8 +12,16 @@ This is the client for a meal planner app, current state is MVP.
 * Redux
 * CSS
 
-## Description
+## MVP's Features:
+* Sign in/Log in page
+* Meal Planner Page 
+* Change recipe button
+* Add to (shopping) list button
+* Shopping cart button, displays the shopping list
+* Print Shopping List / Clear Shopping List buttons 
+* Log out button
 
+## Description
 The MVP was developed as part of a full-stack web app for a real world project. A team of four developers and one UI/UX designer (all [Codaisseur](https://codaisseur.com/) graduates) worked to develop/design it. 
 
 The goal was to develop the basic features for a meal planner that helps people plan healthier meals more efficiently. It also included:
@@ -22,16 +30,6 @@ The goal was to develop the basic features for a meal planner that helps people 
 - generating a shopping list that included all the necessary ingredients in the right quantity (calculated for the number of household members)
 
 This planner gives its users access to quality recipes, but it does not allow a user to add their own recipes. Only an admin could add recipes to the data base. 
-
-
-#### The MPV includes the following features:
-* Sign in/Log in page
-* Meal Planner Page 
-* Change recipe button
-* Add to (shopping) list button
-* Shopping cart button, displays the shopping list
-* Print Shopping List / Clear Shopping List buttons 
-* Log out button
 
 #### Out of scope for this MVP:
 * Creating an admin account or endpoints to add recipes were out of scope for this project so the recipes were added to the database by writing and running an SQL script with DBeaver. 
